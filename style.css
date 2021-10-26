@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.box
+{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+
+}
+.boxes
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 40px 40px 0px 0;
+  position:absolute;
+  animation-name:animation ;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  top: 152px;
+}
+
+.box1
+{
+  align-items: center;
+  background-color: red;
+  left: 150px;
+  animation-delay: 0.4s;
+  overflow: hidden;
+
+}
+.box2{
+  background-color:yellow;
+  left: 300px;
+  animation-delay: 0.8s;
+  }
+.box3
+{
+  background-color: black;
+  left: 450px;
+  animation-delay: 1.2s;
+ }
+.box4
+{
+  background-color: blue;
+  left: 600px;
+  animation-delay: 1.6s;
+}
+
+.box5{
+  background-color: pink;
+  left: 750px;
+  animation-delay: 2.0s;
+  
+  
+
+}
+@keyframes animation{
+
+  0%{
+      transform:translateY(0px);
+  }
+  50%{
+      transform:translateY(150px);
+  }
+  0%
+  {
+      transform:translateY(0px)
+  }
+  
+  
+}
